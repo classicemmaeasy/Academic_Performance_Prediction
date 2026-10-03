@@ -276,14 +276,6 @@ with st.sidebar:
     """)
 
     st.markdown("---")
-    with st.expander("About the System"):
-        st.markdown("""
-        This tool uses pattern analysis from historical student records to provide teachers and parents with early guidance.
-        - **Reliability**: ~79% accuracy
-        - **Primary Factor**: Attendance & consistent classroom activity
-        - **Repository**: [GitHub Project](https://github.com/classicemmaeasy/Academic_Performance_Prediction)
-        """)
-
     st.link_button("GitHub Repository", "https://github.com/classicemmaeasy/Academic_Performance_Prediction", use_container_width=True)
 
 # ---------------------------------------------------------
